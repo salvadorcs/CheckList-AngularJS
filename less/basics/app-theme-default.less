@@ -1,0 +1,124 @@
+//Colors
+@tib-color-theme-primary: #000;
+@tib-brand-primary: lighten(@tib-color-theme-primary, 30%);
+@tib-palette-color-navcolor: @gray-lighter;
+@tib-palette-color-navbg: @gray-darker;
+
+//Color Palette
+@tib-palette-color-1: lighten(@tib-color-theme-primary, 100%);
+@tib-palette-color-2: lighten(@tib-color-theme-primary, 93.5%);
+@tib-palette-color-3: lighten(@tib-color-theme-primary, 46.7%);
+@tib-palette-color-4: lighten(@tib-color-theme-primary, 33.5%);
+@tib-palette-color-5: lighten(@tib-color-theme-primary, 20%);
+@tib-palette-color-6: lighten(@tib-color-theme-primary, 13.5%);
+@tib-palette-color-7: @tib-color-theme-primary;
+
+
+//Process Flow
+@tib-processflow-dot-bg : @tib-palette-color-4;
+@tib-processflow-dot-color : @tib-palette-color-5;
+@tib-processflow-progressbar : @tib-palette-color-4;
+
+
+
+//Components
+@tib-component-active-bg: @tib-brand-primary;
+@tib-component-active-color: @tib-palette-color-1;
+
+//Nav Bar
+@tib-navbar-brand-color: @tib-palette-color-navcolor;
+@tib-navbar-brand-hover-color: darken(@tib-navbar-brand-color, 10%);
+
+@tib-navbar-color: @tib-palette-color-navcolor;
+@tib-navbar-bg: @tib-palette-color-navbg;
+@tib-navbar-border: darken(@tib-palette-color-navbg,6.5%);
+@tib-navbar-link-color: @tib-palette-color-navcolor;
+@tib-navbar-link-hover-color: @tib-palette-color-navcolor;
+@tib-navbar-link-active-color: @tib-palette-color-navcolor;
+@tib-navbar-link-active-bg: darken(@tib-palette-color-navbg,6.5%);
+@tib-navbar-link-disabled-color: lighten(@tib-palette-color-navcolor,5%);
+@tib-navbar-toggle-hover-bg: lighten(@tib-palette-color-navcolor,10%);
+@tib-navbar-toggle-icon-bar-bg: darken(@tib-palette-color-navcolor,5%);
+@tib-navbar-toggle-border-color: @tib-palette-color-navcolor;
+
+
+//Tables
+@tib-table-border-color: @tib-palette-color-3;
+@tib-table-bg-hover: lighten(@tib-color-theme-primary,85%);
+@tib-table-bg-accent: lighten(@tib-color-theme-primary,90%);
+
+//Buttons
+@tib-btn-default-color: @tib-palette-color-5;
+@tib-btn-default-border: @tib-palette-color-5;
+@tib-btn-primary-color: @tib-color-white;
+@tib-btn-primary-bg: @tib-brand-primary;
+@tib-btn-primary-border: darken(@tib-btn-primary-bg, 5%);
+@tib-btn-link-disabled-color: @tib-palette-color-3;
+
+//Tabs
+@tib-nav-tabs-border-color: @tib-palette-color-3;
+@tib-nav-tabs-link-hover-border-color: @tib-palette-color-2;
+@tib-nav-tabs-active-link-hover-bg: @tib-body-bg;
+@tib-nav-tabs-active-link-hover-color: @tib-palette-color-4;
+@tib-nav-tabs-active-link-hover-border-color: @tib-palette-color-3;
+@tib-nav-tabs-justified-link-border-color: @tib-palette-color-3;
+@tib-nav-tabs-justified-active-link-border-color: @tib-body-bg;
+
+
+//Pills
+@tib-nav-pills-active-link-hover-bg: @tib-component-active-bg;
+@tib-nav-pills-active-link-hover-color: @tib-component-active-color;
+
+//Pagination
+@tib-pagination-color: @tib-link-color;
+@tib-pagination-hover-color: @tib-link-hover-color;
+@tib-pagination-border: @tib-palette-color-3;
+@tib-pagination-hover-bg: @tib-palette-color-2;
+@tib-pagination-hover-border: @tib-palette-color-3;
+@tib-pagination-active-color: @tib-color-white;
+@tib-pagination-active-bg: @tib-brand-primary;
+@tib-pagination-active-border: @tib-brand-primary;
+
+//Labels
+@tib-label-default-bg: @tib-palette-color-3;
+@tib-label-primary-bg: @tib-brand-primary;
+@tib-label-color: @tib-color-white;
+@tib-label-link-hover-color: @tib-color-white;
+
+//Modals
+@tib-modal-header-border-color: @tib-palette-color-2;
+@tib-modal-footer-border-color: @tib-modal-header-border-color;
+
+//Progress Bars
+@tib-progress-bar-bg: @tib-brand-primary;
+
+//Panels
+@tib-panel-bg: @tib-palette-color-1;
+@tib-panel-inner-border: @tib-palette-color-3;
+@tib-panel-footer-bg: lighten(@tib-palette-color-3,5%);
+@tib-panel-default-text: @tib-palette-color-2;
+@tib-panel-default-border: @tib-palette-color-3;
+@tib-panel-default-heading-bg: lighten(@tib-palette-color-6,5%);
+@tib-panel-primary-text: @tib-color-white;
+@tib-panel-primary-border: @tib-brand-primary;
+@tib-panel-primary-heading-bg: @tib-brand-primary;
+
+//Badges
+@tib-badge-color: @tib-color-white;
+@tib-badge-link-hover-color: @tib-color-white;
+@tib-badge-bg: @tib-palette-color-3;
+@tib-badge-active-color: @tib-link-color;
+@tib-badge-active-bg: @tib-color-white;
+
+//Breadcrumbs
+@tib-breadcrumb-bg: lighten(@tib-palette-color-2,5%);
+@tib-breadcrumb-color: @tib-palette-color-5;
+@tib-breadcrumb-active-color: @tib-palette-color-3;
+@tib-breadcrumb-separator: ">";
+
+//Type
+@tib-page-header-border-color: @tib-palette-color-2;
+@tib-hr-border: @tib-palette-color-2;
+
+
+

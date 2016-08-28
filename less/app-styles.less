@@ -1,0 +1,53 @@
+// ==========================================================================
+// Vendor files - 3rd party resources
+// ==========================================================================
+
+// Bootstrap v3.3.4 | http://www.getbootstrap.com
+// --------------------------------------------------------------------------
+@import "base/vendor/bootstrap/bootstrap.less";
+
+
+// Elements LESS Mixins v0.9 | http://lesselements.com
+// --------------------------------------------------------------------------
+@import "base/vendor/elements/element-mixins.less";
+
+
+// ==========================================================================
+// Theme Variables
+// ==========================================================================
+// Using this as the driver for theme variation, this file contains all the
+// colors needed for the application skin. This file cannot be placed after
+// subsequent files that relies on the values to execute
+//@import "theme/variables.less";
+
+
+// ==========================================================================
+// Global Layout
+// ==========================================================================
+// Global layout properties that must exist outside of the scope - such as
+// general Bootstrap overrides (that do not pertain to theme or skin).
+//@import "layout/layout.less";
+
+// =============================================================================
+// Font Awesome | https://fortawesome.github.io/Font-Awesome/
+// =============================================================================
+@import "base/vendor/font-awesome/font-awesome.less";
+
+
+//App Imports
+
+@import "basics/app-theme-global.less";
+@import "basics/app-theme-default.less";
+
+//@import "basics/app-theme-custom-deepRed.less.less";
+//@import "basics/app-theme-custom-olive.less";
+//@import "basics/app-theme-custom-teal.less";
+@import "basics/app-theme-custom-teal-withHeader.less";
+//@import "basics/app-theme-custom-red.less";
+
+@import "basics/app-default-bootstrap-customize.less";
+//@import "basics/app-base-css.less";
+
+.full-width{
+  width: 100%;
+}
